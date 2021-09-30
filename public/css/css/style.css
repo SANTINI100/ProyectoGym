@@ -1,0 +1,82 @@
+.banner {
+  position: relative;
+  background: url(https://s1.1zoom.me/big0/242/Fitness_weight_lifting_434614.jpg);
+  min-height: 75vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.scrolling-active {
+  background-color: #fff;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+}
+
+.nav-item {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+  list-style-type: none;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  background-size: 100% 3px;
+}
+
+.head {
+  color: #262626;
+}
+
+.head:hover {
+  color: #262626;
+}
+
+.main-copy-redes {
+  width: 98%;
+  max-width: 1000px;
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.main-copy-redes .footer-copy {
+  width: 70%;
+}
+
+.main-copy-redes .footer-redes {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-copy-redes .footer-redes img {
+  width: 40px;
+  display: inline-block;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#foot2 {
+  width: 100%;
+  background: #000;
+}
+
+#logo {
+  position: relative;
+  bottom: 10px;
+}
